@@ -1,6 +1,6 @@
 var playlist = {Darude: 'Sandstorm'}
 
-function updatePlaylist(list, newArtist, newTitle) {
-  list.newArtist=["newTitle"]
-  return list
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist.artistName=["songTitle"]
+  return playlist
 }
